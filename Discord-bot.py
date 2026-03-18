@@ -4,10 +4,6 @@ from discord.ext import commands
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 
-DISCORD_TOKEN = 'MTQ4Mzg5MjU4ODAxNTY0ODc5OA.G14ZEz.X4NZxDAPpA9uGXE94klMbrJEZgw5c2cA0U7LpQ'
-SPOTIFY_ID = 'ebb3f25bac424f5e9e7b96906ef50f22'
-SPOTIFY_SECRET = '47e5d322f5284109882ee6639a9b91ad'
-REDIRECT_URI = 'https://example.com/callback'
 
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
     client_id=SPOTIFY_ID,
